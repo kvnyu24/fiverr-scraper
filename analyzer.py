@@ -55,4 +55,3 @@ class FiverrAnalyzer:
     def close_connection(self):
         self.conn.close()
         logger.info("Database connection closed.")
-
